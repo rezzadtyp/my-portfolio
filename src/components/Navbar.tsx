@@ -122,7 +122,7 @@ const Navbar = () => {
               >
                 {navLinks.map((link, index) => {
                   return (
-                    <div className="overflow-hidden" onClick={toggleMenu}>
+                    <div className="overflow-hidden" onClick={toggleMenu} key="toggleMenu">
                       <MobileNavLink
                         key={index}
                         title={link.title}

@@ -33,7 +33,7 @@ interface ModalProps {
   projects: Project[];
 }
 
-const index: React.FC<ModalProps> = ({ modal, projects }) => {
+const Index: React.FC<ModalProps> = ({ modal, projects }) => {
   const { active, index } = modal;
 
   const modalContainer = useRef(null);
@@ -135,4 +135,4 @@ const index: React.FC<ModalProps> = ({ modal, projects }) => {
   );
 };
 
-export default index;
+export default Index;

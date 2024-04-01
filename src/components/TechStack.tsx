@@ -12,7 +12,7 @@ export const TechStack = () => {
       <div className="flex flex-col gap-4 md:gap-8 w-full">
         <h1 className="md:text-6xl text-neutral-900 font-semibold text-3xl">Tech Stack</h1>
         <p className="md:text-xl text-neutral-900">
-          As for now, this is the technology that I'm comfortably using. But as
+          As for now, this is the technology that I&apos;m comfortably using. But as
           time goes by, it will increase cuz imma tech-nerd actually.
         </p>
       </div>
